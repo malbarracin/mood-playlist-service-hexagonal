@@ -12,8 +12,8 @@ playlist:
   
 #Spotify Client Secret
 spotify:
-  client-id: ${CLIENT_ID:78fd7bc676ec427295427bce4fbbec7b}
-  client-secret: ${CLIENT_SECRET:7e03c6db97a04e0684f245d39e02d1d1}  
+  client-id: ${CLIENT_ID}
+  client-secret: ${CLIENT_SECRET}  
 
 springdoc:
   api-docs:
