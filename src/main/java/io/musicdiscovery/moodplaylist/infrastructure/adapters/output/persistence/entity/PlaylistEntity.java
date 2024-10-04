@@ -38,7 +38,7 @@ import nonapi.io.github.classgraph.json.Id;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "users")
+@Document(collection = "play_list")
 public class PlaylistEntity {
 
 	/**
