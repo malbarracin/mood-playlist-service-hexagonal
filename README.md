@@ -14,7 +14,16 @@ Este proyecto implementa un Servicio de Playlists Basadas en el Estado de Ánimo
 
 4. **Flujo de Credenciales de Cliente**: Implementa el flujo de credenciales de cliente de OAuth 2.0 para autenticarse con la API de Spotify.
 
-## Descripción del Proyecto
+## Requisitos
+
+| Tecnología         |
+|--------------------|
+| ![Java](https://img.shields.io/badge/Java-21-007396?logo=java&logoColor=white)               |
+| ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.3-6DB33F?logo=spring-boot&logoColor=white)        |
+| ![Spring WebFlux](https://img.shields.io/badge/Spring%20WebFlux-3.3.3-6DB33F?logo=spring&logoColor=white)    |
+| ![Spotify API](https://img.shields.io/badge/Spotify%20API-v1-1DB954?logo=spotify&logoColor=white)     |
+| ![Maven](https://img.shields.io/badge/Maven-3.6.3-C71A36?logo=apache-maven&logoColor=white)              |
+| ![Docker](https://img.shields.io/badge/Docker-20.10.7-2496ED?logo=docker&logoColor=white)        
 
 
 ## Arquitectura Hexagonal
@@ -26,18 +35,7 @@ La arquitectura hexagonal, también conocida como Ports and Adapters, es un patr
 - **Capa de Entrada/Salida**: Proporciona adaptadores para interactuar con el sistema, como controladores REST y mapeadores.
   
 Esta separación permite que la lógica de negocio se mantenga independiente de la forma en que se exponen o almacenan los datos.
-
-## Requisitos
-
-| Tecnología         |
-|--------------------|
-| ![Java](https://img.shields.io/badge/Java-21-007396?logo=java&logoColor=white)               |
-| ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.3-6DB33F?logo=spring-boot&logoColor=white)        |
-| ![Spring WebFlux](https://img.shields.io/badge/Spring%20WebFlux-3.3.3-6DB33F?logo=spring&logoColor=white)    |
-| ![Spotify API](https://img.shields.io/badge/Spotify%20API-v1-1DB954?logo=spotify&logoColor=white)     |
-| ![Maven](https://img.shields.io/badge/Maven-3.6.3-C71A36?logo=apache-maven&logoColor=white)              |
-| ![Docker](https://img.shields.io/badge/Docker-20.10.7-2496ED?logo=docker&logoColor=white)             |
-
+     |
 
 ## Levantar el Proyecto
 
