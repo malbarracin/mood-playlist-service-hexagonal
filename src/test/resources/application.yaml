@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  webflux:
+    base-path: /mood-playlist-service
+
+#PlaylistController endpoints
+playlist:
+  generate-playlist-by-mood: mood/{mood}
+  
+logging:
+  level:
+    root: info
+    reactor.netty.http.client: debug
